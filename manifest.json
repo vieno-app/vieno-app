@@ -1,0 +1,16 @@
+{
+  "name": "VIENO... anche io!",
+  "short_name": "VIENO",
+  "description": "Attività, locali ed eventi per famiglie con bambini 0-6 anni nel Bassanese e Cittadellese.",
+  "start_url": "/?source=homescreen",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F4EE",
+  "theme_color": "#262262",
+  "lang": "it-IT",
+  "icons": [
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

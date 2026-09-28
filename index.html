@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VIENO... anche io!</title>
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon-32.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#262262">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="VIENO">
+
+<style>
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: #F7F4EE;
+    font-family: -apple-system, "Nunito", system-ui, sans-serif;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .wrap { text-align: center; }
+  img { width: 96px; height: 96px; border-radius: 22px; }
+  p { color: #262262; font-weight: 700; margin-top: 18px; font-size: 15px; }
+  a.fallback {
+    display: inline-block; margin-top: 22px; padding: 12px 22px;
+    background: #262262; color: #fff; text-decoration: none;
+    border-radius: 999px; font-weight: 700; font-size: 14px;
+  }
+</style>
+
+<!-- Redirect verso il sito vero. Il tag <meta refresh> funziona anche se lo script
+     JS non parte in tempo; è la rete di sicurezza. -->
+<meta http-equiv="refresh" content="1; url=https://vieno.it/?source=homescreen">
+<script>
+  window.location.replace('https://vieno.it/?source=homescreen');
+</script>
+</head>
+<body>
+  <div class="wrap">
+    <img src="icon-512.png" alt="VIENO">
+    <p>Apertura di VIENO...anche io!</p>
+    <a class="fallback" href="https://vieno.it/?source=homescreen">Apri il sito</a>
+  </div>
+</body>
+</html>
